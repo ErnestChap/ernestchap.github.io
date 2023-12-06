@@ -1,0 +1,114 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+color: black;
+text-decoration: none;
+}
+
+header {
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+    font-size: 15px;
+    border: solid 1px rgb(87, 87, 87);
+    padding: 10px;
+    position: sticky;
+    }
+
+#Welcome_Message{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    top: 30%;
+    right: 15px;
+}
+body {
+    background-color: rgb(239, 239, 239);
+}    
+
+#Welcome {
+    position: absolute;
+    top: 100px;
+    font-size: 30px;
+    opacity: 0.85;
+    width: 100%;
+    text-align: center;
+}
+
+
+#Intro li {
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    padding: 0.5px;
+    text-decoration: underline;
+    border-radius: 4px;
+    margin: 1px;
+}
+
+#Intro li:hover{
+    background-color: rgb(156, 156, 227);
+}
+
+#All_of_Us li:hover{
+    background-color: rgb(156, 156, 227);
+}
+
+#All_of_Us {
+    text-align: center;
+    position: sticky;
+    width: 100%;
+}
+
+#All_of_Us li {
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    margin: 0px 50px;
+    padding: 0px 10px;
+    border: 1px solid black;
+    top: -1px;
+}
+
+#Brief_Description {
+    position: relative;
+    width: 40%;
+    font-size: 16px;
+    top: 100px;
+    left: 5%;
+    padding: 10px;
+}
+
+
+.one {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+
+
+.two {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.three {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+
+#Link_to_Us {
+    color: rgb(52, 52, 255);
+    opacity: 0.75;
+}
+
+#link_to_Us a:hover{
+    background-color: black;
+}
